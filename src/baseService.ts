@@ -366,7 +366,9 @@ abstract class BaseInterceptor {
 }
 
 export abstract class RequestInterceptor extends BaseInterceptor {
-  public abstract onFulfilled(value: InternalAxiosRequestConfig): InternalAxiosRequestConfig | Promise<InternalAxiosRequestConfig>;
+  public abstract onFulfilled(
+    value: InternalAxiosRequestConfig,
+  ): InternalAxiosRequestConfig | Promise<InternalAxiosRequestConfig>;
 }
 
 export abstract class ResponseInterceptor<T = any> extends BaseInterceptor {
