@@ -2,7 +2,7 @@
   "name": "ts-retrofit",
   "version": "1.19.0",
   "description": "A declarative and axios based retrofit implementation for JavaScript and TypeScript.",
-  "repository": "https://github.com/nullcc/ts-retrofit",
+  "repository": "https://github.com/devcsrj/ts-retrofit",
   "main": "lib/index.js",
   "types": "lib/types/index.d.ts",
   "keywords": [
@@ -11,7 +11,7 @@
     "js",
     "axios"
   ],
-  "bugs": "https://github.com/nullcc/ts-retrofit/issues",
+  "bugs": "https://github.com/devcsrj/ts-retrofit/issues",
   "scripts": {
     "test": "jest --coverage",
     "tslint": "tslint -c tslint.json --project . src/**/*.ts test/**/*.test.ts",
@@ -22,7 +22,6 @@
     "preversion": "npm run tslint",
     "postversion": "git push && git push --tags"
   },
-  "author": "Ethan Zhang",
   "license": "MIT",
   "husky": {
     "hooks": {
