@@ -1,7 +1,7 @@
 # ts-retrofit
 
-[![build status](https://travis-ci.org/nullcc/ts-retrofit.svg?branch=master)](https://travis-ci.org/nullcc/ts-retrofit)
-[![](https://img.shields.io/npm/dm/ts-retrofit.svg?style=flat)](https://www.npmjs.org/package/ts-retrofit)
+[![build status](https://travis-ci.org/nullcc/ts-retrofit.svg?branch=master)](https://travis-ci.org/devcsrj/axios-retrofit)
+[![](https://img.shields.io/npm/dm/axios-retrofit.svg?style=flat)](https://www.npmjs.org/package/axios-retrofit)
 
 | Statements                               | Branches                                 | Functions                                | Lines                               |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------- |
@@ -12,7 +12,7 @@
 ## Install
 
 ```bash
-$ npm i ts-retrofit
+$ npm i axios-retrofit
 ```
 
 ## Quick Overview
@@ -20,7 +20,7 @@ $ npm i ts-retrofit
 Here is a typical service definition and usage:
 
 ```typescript
-import { GET, POST, PUT, PATCH, DELETE, BasePath, Header, Path, Body, BaseService, ServiceBuilder, Response } from "ts-retrofit";
+import { GET, POST, PUT, PATCH, DELETE, BasePath, Header, Path, Body, BaseService, ServiceBuilder, Response } from "axios-retrofit";
 
 interface User {
   id?: number;
@@ -73,7 +73,7 @@ import {
   RequestInterceptorFunction,
   RequestInterceptor,
   ResponseInterceptor,
-} from "ts-retrofit";
+} from "axios-retrofit";
 
 @BasePath("/api/v1")
 class ItemService extends BaseService {
