@@ -1,6 +1,6 @@
 {
   "name": "axios-retrofit",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A declarative and axios based retrofit implementation for JavaScript and TypeScript.",
   "repository": "https://github.com/devcsrj/ts-retrofit",
   "main": "lib/index.js",
